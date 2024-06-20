@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+}
+footer{
+    margin: 95px 0;
+    background-color: black;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 17;
+  font-size: 17px;
+}
+.top-row{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    background-color: rgb(121, 90, 247);
+    align-items: center;
+    align-content: center;
+}
+.top-row .para{
+     padding-left: 20px;
+     font-size: 16px;
+     width: 50%;
+}
+.top-row .icons{
+    width: 50%;
+}
+.icons ul{
+    list-style-type: none;
+    padding-left: 345px;
+}
+.icons ul li{
+    display: inline;
+    padding: 10px;
+}
+.middle-row{
+    height: 270px;
+    width: 100%;
+    background-color: rgba(31, 30, 39, 0.84);
+}
+.middle-row .content{
+    display: flex;
+    padding:45px 0 0 30px;
+}
+.content .first-column{
+    width: 23%;
+    padding-right: 90px;
+}
+a{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.first-column p{
+    font-size: 15px;
+    padding-top: 35px;
+    line-height: 1.5em;
+}
+.content .second-column{
+    width: 20%;
+}
+.second-column  ul{
+    list-style-type: none;
+    padding-top: 25px;
+}
+.second-column ul li{
+    line-height: 2.5em;
+    font-size: 15px;
+}
+.content .third-column{
+    width: 23%;
+}
+.third-column ul{
+    list-style-type: none;
+    padding-top: 25px;
+}
+.third-column ul li{
+    line-height: 2.5em;
+    font-size: 15px;
+}
+.content .fourth-column{
+    width: auto;
+}
+.fourth-column ul{
+    list-style-type: none;
+    padding-top: 25px;
+}
+.fourth-column ul li{
+    display: flex;
+    line-height: 2.5em;
+    font-size: 15px;
+}
+.fourth-column .text a{
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.fourth-column .icon{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.fourth-column .text {
+    margin-top: -2px;
+    margin-left: 10px;
+}
+.bottom-row{
+    height: 55px;
+    width: 100%;
+    background-color: black;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bottom-row .text{
+    font-size: 15px;
+}
+.line {
+    height: 1.8px;
+    width: 55px;
+    background-color: rgb(91, 77, 148);
+    margin-top: 7px;
+}
+
